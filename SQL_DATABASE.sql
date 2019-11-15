@@ -28,9 +28,11 @@ insert into utvonal (turazoid, honnan, hova, km) values
 ('2', 'Budapest', 'Sopron', '210'),
 ('3', 'Sopron', 'Velence', '60'),
 ('4', 'Sopron', 'Velence', '60'),
-('5', 'Debrecen', 'Sopron', '350')
+('5', 'Debrecen', 'Sopron', '350');
 
-Data Source=(localdb)\MSSQLLocalDB;
+
+
+/*Data Source=(localdb)\MSSQLLocalDB;
 Initial Catalog=tura;
 
 Integrated Security=True;
@@ -38,4 +40,4 @@ Connect Timeout=30;
 Encrypt=False;
 TrustServerCertificate=False;
 ApplicationIntent=ReadWrite;
-MultiSubnetFailover=False
+MultiSubnetFailover=False/*/
