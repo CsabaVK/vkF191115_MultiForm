@@ -16,7 +16,7 @@ namespace _11_15_gc
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Default());
         }
     }
 }
