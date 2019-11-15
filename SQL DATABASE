@@ -12,7 +12,7 @@ honnan varchar(50),
 hova varchar(50),
 km int);
 
-insert into turazo (vezeteknev, keresztnev, varos, telefonszam) values
+insert into turazo (vezeteknev, keresztnev, varos, telefon) values
 ('József','Karcsi','Velence','06705558458'),
 ('Bakker','Imre','Budapest','06705043333'),
 ('Alaf','Mukker','Sopron','06205546677'),
