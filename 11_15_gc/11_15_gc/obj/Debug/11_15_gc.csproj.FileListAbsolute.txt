@@ -1,0 +1,11 @@
+C:\Users\garaguly.csaba\Desktop\11_15_gc\11_15_gc\obj\Debug\11_15_gc.csprojAssemblyReference.cache
+C:\Users\garaguly.csaba\Desktop\11_15_gc\11_15_gc\obj\Debug\_11_15_gc.Form1.resources
+C:\Users\garaguly.csaba\Desktop\11_15_gc\11_15_gc\obj\Debug\_11_15_gc.Properties.Resources.resources
+C:\Users\garaguly.csaba\Desktop\11_15_gc\11_15_gc\obj\Debug\11_15_gc.csproj.GenerateResource.cache
+C:\Users\garaguly.csaba\Desktop\11_15_gc\11_15_gc\obj\Debug\11_15_gc.csproj.CoreCompileInputs.cache
+C:\Users\garaguly.csaba\Desktop\11_15_gc\11_15_gc\bin\Debug\11_15_gc.exe.config
+C:\Users\garaguly.csaba\Desktop\11_15_gc\11_15_gc\bin\Debug\11_15_gc.exe
+C:\Users\garaguly.csaba\Desktop\11_15_gc\11_15_gc\bin\Debug\11_15_gc.pdb
+C:\Users\garaguly.csaba\Desktop\11_15_gc\11_15_gc\obj\Debug\11_15_gc.exe
+C:\Users\garaguly.csaba\Desktop\11_15_gc\11_15_gc\obj\Debug\11_15_gc.pdb
+C:\Users\garaguly.csaba\Desktop\11_15_gc\11_15_gc\obj\Debug\_11_15_gc.FormPopUp.resources
