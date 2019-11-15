@@ -30,13 +30,13 @@
         {
             this.f2_lb_1 = new System.Windows.Forms.Label();
             this.f2_dtg = new System.Windows.Forms.DataGridView();
+            this.Indulás = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Érkezés = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.MegtettÚt = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.f2_lb_2 = new System.Windows.Forms.Label();
             this.f2_lb_3 = new System.Windows.Forms.Label();
             this.f2_tb_osszkm = new System.Windows.Forms.TextBox();
             this.f2_tb_jutalomp = new System.Windows.Forms.TextBox();
-            this.Indulás = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Érkezés = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.MegtettÚt = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.f2_dtg)).BeginInit();
             this.SuspendLayout();
             // 
@@ -51,6 +51,7 @@
             // 
             // f2_dtg
             // 
+            this.f2_dtg.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.f2_dtg.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.f2_dtg.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Indulás,
@@ -60,7 +61,23 @@
             this.f2_dtg.Name = "f2_dtg";
             this.f2_dtg.Size = new System.Drawing.Size(398, 150);
             this.f2_dtg.TabIndex = 1;
-            this.f2_dtg.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView1_CellContentClick);
+            this.f2_dtg.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.f2_dtg.RowHeadersVisible = false;
+            // 
+            // Indulás
+            // 
+            this.Indulás.HeaderText = "indulas";
+            this.Indulás.Name = "Indulás";
+            // 
+            // Érkezés
+            // 
+            this.Érkezés.HeaderText = "erkezes";
+            this.Érkezés.Name = "Érkezés";
+            // 
+            // MegtettÚt
+            // 
+            this.MegtettÚt.HeaderText = "megtettut";
+            this.MegtettÚt.Name = "MegtettÚt";
             // 
             // f2_lb_2
             // 
@@ -93,21 +110,6 @@
             this.f2_tb_jutalomp.Name = "f2_tb_jutalomp";
             this.f2_tb_jutalomp.Size = new System.Drawing.Size(153, 20);
             this.f2_tb_jutalomp.TabIndex = 6;
-            // 
-            // Indulás
-            // 
-            this.Indulás.HeaderText = "indulas";
-            this.Indulás.Name = "Indulás";
-            // 
-            // Érkezés
-            // 
-            this.Érkezés.HeaderText = "erkezes";
-            this.Érkezés.Name = "Érkezés";
-            // 
-            // MegtettÚt
-            // 
-            this.MegtettÚt.HeaderText = "megtettut";
-            this.MegtettÚt.Name = "MegtettÚt";
             // 
             // FormPopUp
             // 

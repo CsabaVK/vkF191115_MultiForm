@@ -19,8 +19,8 @@ namespace _11_15_gc
         SqlConnection conn;
         public Form1()
         {
-            InitializeComponent();
-            conn = new SqlConnection(@"Data Source = (localdb)\MSSQLLocalDB;Initial Catalog = tura;");
+            InitializeComponent(); // VK-PC\Csaba
+            conn = new SqlConnection(@"Data Source=(localdb)\ProjectsV13;Initial Catalog=tura;"); // XDDDDD
             Fillit();
         }
 
@@ -60,6 +60,15 @@ namespace _11_15_gc
         private void Bt_update_Click(object sender, EventArgs e)
         {
             dtg_adat.Refresh();
+        }
+
+        private void dtg_adat_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            // ROW HEADER VISIBLE = FALSE
+            //dtg_adat.RowHeadersVisible = false;
+
+            //SELECTION MODE
+            //dtg_adat.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
         }
     }
 }

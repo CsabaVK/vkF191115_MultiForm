@@ -15,11 +15,8 @@ namespace _11_15_gc
         public FormPopUp()
         {
             InitializeComponent();
-        }
-
-        private void DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            
+            //f2_dtg.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            //f2_dtg.RowHeadersVisible = false;
         }
     }
 }

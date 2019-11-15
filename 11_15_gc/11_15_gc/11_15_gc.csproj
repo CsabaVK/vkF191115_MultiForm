@@ -58,12 +58,6 @@
     <Compile Include="FormPopUp.Designer.cs">
       <DependentUpon>FormPopUp.cs</DependentUpon>
     </Compile>
-    <Compile Include="PopUpSec.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="PopUpSec.Designer.cs">
-      <DependentUpon>PopUpSec.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">

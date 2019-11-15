@@ -31,13 +31,13 @@
             this.lb_1 = new System.Windows.Forms.Label();
             this.lb_2 = new System.Windows.Forms.Label();
             this.dtg_adat = new System.Windows.Forms.DataGridView();
-            this.bt_szemely = new System.Windows.Forms.Button();
-            this.bt_update = new System.Windows.Forms.Button();
             this.Azonosító = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Vezetéknév = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Keresztnév = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Város = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Telefonszám = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.bt_szemely = new System.Windows.Forms.Button();
+            this.bt_update = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dtg_adat)).BeginInit();
             this.SuspendLayout();
             // 
@@ -71,30 +71,11 @@
             this.Telefonszám});
             this.dtg_adat.Location = new System.Drawing.Point(12, 203);
             this.dtg_adat.Name = "dtg_adat";
+            this.dtg_adat.RowHeadersVisible = false;
+            this.dtg_adat.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dtg_adat.Size = new System.Drawing.Size(687, 150);
             this.dtg_adat.TabIndex = 2;
-            // 
-            // bt_szemely
-            // 
-            this.bt_szemely.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.bt_szemely.Location = new System.Drawing.Point(44, 375);
-            this.bt_szemely.Name = "bt_szemely";
-            this.bt_szemely.Size = new System.Drawing.Size(266, 31);
-            this.bt_szemely.TabIndex = 3;
-            this.bt_szemely.Text = "Új személy felvétele";
-            this.bt_szemely.UseVisualStyleBackColor = true;
-            this.bt_szemely.Click += new System.EventHandler(this.Bt_szemely_Click);
-            // 
-            // bt_update
-            // 
-            this.bt_update.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.bt_update.Location = new System.Drawing.Point(393, 375);
-            this.bt_update.Name = "bt_update";
-            this.bt_update.Size = new System.Drawing.Size(266, 31);
-            this.bt_update.TabIndex = 4;
-            this.bt_update.Text = "Adatok frissítése";
-            this.bt_update.UseVisualStyleBackColor = true;
-            this.bt_update.Click += new System.EventHandler(this.Bt_update_Click);
+            this.dtg_adat.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtg_adat_CellContentClick);
             // 
             // Azonosító
             // 
@@ -121,6 +102,28 @@
             this.Telefonszám.HeaderText = "telefonszam";
             this.Telefonszám.Name = "Telefonszám";
             // 
+            // bt_szemely
+            // 
+            this.bt_szemely.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.bt_szemely.Location = new System.Drawing.Point(44, 375);
+            this.bt_szemely.Name = "bt_szemely";
+            this.bt_szemely.Size = new System.Drawing.Size(266, 31);
+            this.bt_szemely.TabIndex = 3;
+            this.bt_szemely.Text = "Új személy felvétele";
+            this.bt_szemely.UseVisualStyleBackColor = true;
+            this.bt_szemely.Click += new System.EventHandler(this.Bt_szemely_Click);
+            // 
+            // bt_update
+            // 
+            this.bt_update.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.bt_update.Location = new System.Drawing.Point(393, 375);
+            this.bt_update.Name = "bt_update";
+            this.bt_update.Size = new System.Drawing.Size(266, 31);
+            this.bt_update.TabIndex = 4;
+            this.bt_update.Text = "Adatok frissítése";
+            this.bt_update.UseVisualStyleBackColor = true;
+            this.bt_update.Click += new System.EventHandler(this.Bt_update_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -132,7 +135,7 @@
             this.Controls.Add(this.lb_2);
             this.Controls.Add(this.lb_1);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Természetjáró App";
             ((System.ComponentModel.ISupportInitialize)(this.dtg_adat)).EndInit();
             this.ResumeLayout(false);
 
