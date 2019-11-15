@@ -1,6 +1,6 @@
-create database tura
+create database tura;
 
-use tura
+use tura;
 
 create table turazo(
 id int primary key identity(1, 1),
